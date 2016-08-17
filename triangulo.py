@@ -8,8 +8,8 @@ class Triangulo(Figurageometrica):
 	def imprimir(self):
 		resultado =""
 
-		for i in range(self.altura)
-			resultado=" *" +(i+1) + "\n"
+		for i in range(self.altura):
+			resultado +="* " * (i+1) + "\n"
 
 		return resultado
 
