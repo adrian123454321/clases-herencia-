@@ -9,7 +9,7 @@ class Triangulo(Figurageometrica):
 		resultado =""
 
 		for i in range(self.altura):
-			resultado +="* " * (i+1) + "\n"
+			resultado +=" *" * (i+1) + "\n"
 
 		return resultado
 
